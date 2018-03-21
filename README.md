@@ -1,4 +1,4 @@
-# FrontEndBoilerplate
+# FrontEnd Boilerplate
 A starter template with a collection of front end tools, resources, and build tools.
 
 ## Features
@@ -16,10 +16,10 @@ Tools & Features included:
 - Gulp Task Runner
 - Minify CSS files (gulp-nano)
 - Image Optimization (gulp-imagemin)
-- PostCSS plugin (gulp-postcss) -- pipe CSS through multiple plugins
+- PostCSS -- pipes CSS through multiple plugins (gulp-postcss)
 - Static asset revisioning (gulp-rev)
 - Minify JavaScript files (gulp-uglify)
-- gulp-usemin - Replace references to CSS/JS in HTML
+- Replace references to CSS/JS in HTML -- (gulp-usemin)
 - gulp-watch
 - postcss-animation
 - postcss-import
@@ -53,7 +53,7 @@ Source code is contained in the /app folder. The /dist folder contains the folde
 
 `gulp watch`
 
-**Build** - Will run the build process and will place the files in the /dist folders
+**Build** - Will run the build process and will place the files in the /dist folders. The /dist folder files are deleted/created every time the gulp build command is run. 
 
 `gulp build`
 
