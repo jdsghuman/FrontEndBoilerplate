@@ -3,22 +3,22 @@ A starter template with a collection of front end tools, resources, and build to
 
 ## Features
 
-This starter template allows you to start a project quickly.
+This starter template allows you to start a project quickly without having to worry about build tools and package managers to configure.
 
-Features included:
+Tools & Features included:
 
 - Recommended structure for HTML, CSS, JavaScript
-- BEM CSS structure
-- Autoprefixer
+- BEM CSS module structure
+- Autoprefixer - Vendor prefixing
 - Babel
-- Browsersync - Live server auto reload feature
+- Browser Sync - Live server auto reload feature
 - Delete files and folders (gulp-del)
 - Gulp Task Runner
-- Minify CSS (gulp-nano)
+- Minify CSS files (gulp-nano)
 - Image Optimization (gulp-imagemin)
-- PostCSS processor
+- PostCSS plugin (gulp-postcss) -- pipe CSS through multiple plugins
 - Static asset revisioning (gulp-rev)
-- Minify CSS/JS files (gulp-uglify)
+- Minify JavaScript files (gulp-uglify)
 - gulp-usemin - Replace references to CSS/JS in HTML
 - gulp-watch
 - postcss-animation
@@ -27,6 +27,9 @@ Features included:
 - postcss-nested
 - postcss-simple-vars
 - webpack
+- NodeJS / NPM
+- jQuery
+- Build files with easy command
 
 ## Installation
 
@@ -38,8 +41,21 @@ Features included:
 
 Navigate to the project folder
 
-`npm start`
+`npm install`
 
+## Structure
+
+Source code is contained in the /app folder. The /dist folder contains the folder to put on the server
+
+## Running
+
+**Start a local development environment** - Will start a server at [http://localhost:3000](http://localhost:3000 "http://localhost:3000") that will live reload when changes are detected
+
+`gulp watch`
+
+**Build** - Will run the build process and will place the files in the /dist folders
+
+`gulp build`
 
 ## License
 
